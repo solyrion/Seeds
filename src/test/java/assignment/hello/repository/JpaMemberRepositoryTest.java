@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class JpaMemberRepositoryTest {
 
     @Autowired
-    JpaMemberRepository repository;
+    MemberRepository repository;
 
     @Test
     void saveMember(){
